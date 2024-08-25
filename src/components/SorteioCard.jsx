@@ -11,7 +11,7 @@ function SorteioCard() {
         </p>
       </div>
       <div className="px-6 pb-4 items-center flex justify-center">
-        <p className="inline-block bg-gray-600 rounded-2xl px-3 py-2 text-sm text-center font-semibold ">
+        <p className="inline-block bg-orange-600 rounded-2xl px-3 py-2 text-sm text-center font-semibold ">
           Bilhetes por apenas <br /> <span className='font-bold text-xl'>R$4,99</span>
         </p>
       </div>
