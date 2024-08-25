@@ -7,7 +7,7 @@ function SorteioCard() {
       <div className="px-6 py-4">
         <div className="font-bold text-gray-700 text-center text-xl mb-2">🌟 Entre na Rifa e Ganhe! 🌟</div>
         <p className="text-gray-700 text-base text-center">
-        Adquira uma cota e entre no sorteio para ganhar prêmios fantásticos! Cada cota também contribui para boas causas. <br /> <span className='font-semibold text-red-500'>Não perca essa chance!</span>
+        Adquira uma cota e entre no sorteio para ganhar prêmios fantásticos! Cada cota também contribui para boas causas. <br /> <span className='font-semibold text-orange-600'>Não perca essa chance!</span>
         </p>
       </div>
       <div className="px-6 pb-4 items-center flex justify-center">
