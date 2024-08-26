@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import SorteioCard from './components/SorteioCard';
 import CardVisto from './components/CardVisto';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <CardVisto />
           </section>
           <a className='mb-10 text-white font-mono' href="#">Ver mais...</a>
+          <Footer />
       </div>
     </>
   );
