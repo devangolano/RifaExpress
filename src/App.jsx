@@ -32,7 +32,7 @@ function App() {
             <CardVisto />
             <CardVisto />
           </section>
-          <a className='mb-10 text-white font-mono' href="#">Ver mais...</a>
+          <a className='mb-7 text-white font-mono' href="#">Ver mais...</a>
           <Footer />
       </div>
     </>
