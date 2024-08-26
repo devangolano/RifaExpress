@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardVisto = () => {
   return (
-    <div className="max-w-md mx-auto bg-[#1b1b1b] border-2 border-orange-500 rounded-lg overflow-hidden shadow-lg">
+    <div className="max-w-md mx-auto bg-[#1b1b1b] border-2 border-orange-600 rounded-lg overflow-hidden shadow-lg">
       <div className="flex h-full">
         <div className="w-1/3">
           <img
