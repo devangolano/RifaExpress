@@ -14,7 +14,7 @@ function App() {
             <b>Rifas</b>
           </h2>
           <p className='text-sm mb-5 w-full max-w-4xl'>
-            Experimente a emoção de ganhar prêmios incríveis com a "<b>RifaEspress</b>"! Compre um bilhete e entre para o jogo da sorte; é fácil e cada rifa também apoia boas causas. Transforme sua sorte em grandes conquistas e faça a diferença com a "<b>RifaEspress</b>"!
+            Experimente a emoção de ganhar prêmios incríveis com a <b>RifaEspress</b>! Compre um bilhete e entre para o jogo da sorte; é fácil e cada rifa também apoia boas causas. Transforme sua sorte em grandes conquistas e faça a diferença com a <b>RifaEspress</b>!
           </p>
           <section className='grid md:grid-cols-2 mb-10 lg:grid-cols-3 gap-4'>
             <SorteioCard />
