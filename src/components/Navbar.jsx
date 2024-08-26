@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 fixed w-full text-white p-4 flex justify-between items-center">
+    <nav className="bg-gray-800 fixed w-full text-white p-6 flex justify-between items-center">
       <div className="text-orange-500 font-bold text-lg">
         RifaExpress
       </div>
