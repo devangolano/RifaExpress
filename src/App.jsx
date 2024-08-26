@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import SorteioCard from './components/SorteioCard';
+import CardVisto from './components/CardVisto';
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className='h-full bg-[#242424]  flex items-center justify-center'>
+      <div className='h-full bg-[#242424] flex flex-col items-center justify-center'>
         <div className='w-full max-w-6xl md:pt-6 pt-4 px-4 text-start text-white'>
           <h2 className='text-2xl'>
             <b>Rifas</b>
@@ -21,7 +22,16 @@ function App() {
             <SorteioCard />
             <SorteioCard />
           </section>
+          <h2 className='text-2xl'>
+            <b>Últimas ações</b>
+          </h2>
         </div>
+          <section className='grid md:grid-cols-2 my-6 px-4 lg:grid-cols-3 gap-4'>
+            <CardVisto />
+            <CardVisto />
+            <CardVisto />
+          </section>
+          <a className='mb-10 text-white font-mono' href="#">Ver mais...</a>
       </div>
     </>
   );
