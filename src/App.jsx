@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <div className='h-full bg-[#242424] flex flex-col items-center justify-center'>
-        <div className='w-full max-w-6xl md:pt-6 pt-4 px-4 text-start text-white'>
+        <div className='w-full max-w-6xl md:pt-24 pt-20 px-4 text-start text-white'>
           <h2 className='text-2xl'>
             <b>Rifas</b>
           </h2>
