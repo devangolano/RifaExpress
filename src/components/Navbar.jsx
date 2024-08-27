@@ -20,7 +20,7 @@ const Navbar = () => {
       <div
         className={`fixed top-0 right-0 h-full bg-gray-900 transform transition-transform duration-300 ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
-        } w-[70%] md:w-auto md:static md:transform-none md:flex md:flex-row md:space-x-4 md:bg-transparent md:h-auto md:p-0`}
+        } w-[85%] md:w-auto md:static md:transform-none md:flex md:flex-row md:space-x-4 md:bg-transparent md:h-auto md:p-0`}
       >
         {/* O ícone FaTimes está visível apenas na versão mobile */}
         <div className="flex justify-start p-6 md:hidden">
