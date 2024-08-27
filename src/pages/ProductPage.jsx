@@ -4,11 +4,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
+import MaioresCompradores from '../components/MaioresCompradores';
 
 const ProductPage = () => {
   return (
     <div className="bg-[#1b1b1b] text-white min-h-screen flex justify-center items-center">
-      <div className="max-w-4xl w-full md:mx-8 md:px-10 px-3 pt-24 mb-10 md:my-28 bg-gray-800 border-gray-500 rounded-lg shadow-lg">
+      <div className="max-w-4xl w-full border-orange-500 md:mx-8 md:px-10 px-3 pt-24 mb-10 md:my-28">
         <div className="flex justify-center mb-4">
           <Swiper
             modules={[Navigation, Pagination]}
@@ -54,7 +55,7 @@ const ProductPage = () => {
           <div className="bg-[#442a14] text-center p-2 rounded-lg border border-orange-600">2º PRÊMIO: YAMAHA MASTER OF TORCH 07 - 2022</div>
           <div className="bg-[#442a14] text-center p-2 rounded-lg border border-orange-600">3º PRÊMIO: HONDA TITAN 169 - 2018</div>
         </div>
-        <div className="flex justify-center gap-2 mb-4">
+        <div className="flex justify-center gap-2 mb-14">
           <div className="bg-gray-800 text-center px-4 py-1 rounded-lg border border-orange-600">
             <p className="font-semibold">MAIOR <br /> COMPRADOR:</p>
             <p>R$2000,00</p>
@@ -64,6 +65,9 @@ const ProductPage = () => {
             <p>R$600,00</p>
           </div>
         </div>
+        <section className=''>
+        <MaioresCompradores />
+        </section>
       </div>
     </div>
   );
