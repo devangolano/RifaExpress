@@ -8,7 +8,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 const ProductPage = () => {
   return (
     <div className="bg-[#1b1b1b] text-white min-h-screen flex justify-center items-center">
-      <div className="max-w-4xl w-full p-4 my-28 bg-gray-800 border-gray-500 rounded-lg shadow-lg">
+      <div className="max-w-4xl w-full px-6 pt-24 md:my-28 bg-gray-800 border-gray-500 rounded-lg shadow-lg">
         <div className="flex justify-center mb-4">
           <Swiper
             modules={[Navigation, Pagination]}
@@ -23,6 +23,13 @@ const ProductPage = () => {
                 className="w-full rounded-lg"
                 src="https://www.motorrad-bilder.at/thumbs/995x640/slideshows/291/011877/rizoma-yamaha-mt-07-01.jpg"
                 alt="Produto 1"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="w-full rounded-lg"
+                src="https://www.motorrad-bilder.at/thumbs/995x640/slideshows/291/011877/rizoma-yamaha-mt-07-02.jpg"
+                alt="Produto 2"
               />
             </SwiperSlide>
             <SwiperSlide>

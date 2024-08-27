@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 fixed w-full text-white p-6 flex justify-between items-center">
+    <nav className="bg-gray-800 z-10 fixed w-full text-white p-6 flex justify-between items-center">
       <Link to="/" className="text-orange-500 font-bold text-lg">
         RifaExpress
       </Link>
