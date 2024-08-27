@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; // Importando Link do react-router-dom
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,9 +11,9 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-800 fixed w-full text-white p-6 flex justify-between items-center">
-      <div className="text-orange-500 font-bold text-lg">
+      <Link to="/" className="text-orange-500 font-bold text-lg">
         RifaExpress
-      </div>
+      </Link>
       <div className="md:hidden" onClick={toggleMenu}>
         {isOpen ? <FaTimes className="text-orange-500 text-2xl" /> : <FaBars className="text-orange-500 text-2xl" />}
       </div>
@@ -26,9 +27,9 @@ const Navbar = () => {
           <FaTimes className="text-orange-500 text-2xl cursor-pointer" onClick={toggleMenu} />
         </div>
         <div className="flex flex-col items-center h-full md:flex-row md:items-center md:justify-end md:space-x-4">
-          <a href="#rifa" className="text-gray-400 hover:text-white text-lg mb-4 md:mb-0">Rifa</a>
-          <a href="#meus-pedidos" className="text-gray-400 hover:text-white text-lg mb-4 md:mb-0">Meus Pedidos</a>
-          <a href="#ultimos-sorteios" className="text-gray-400 hover:text-white text-lg">Últimos sorteios</a>
+          <Link to="/" className="text-gray-400 hover:text-white text-lg mb-4 md:mb-0" onClick={toggleMenu}>Rifa</Link>
+          <Link to="/meus-pedidos" className="text-gray-400 hover:text-white text-lg mb-4 md:mb-0" onClick={toggleMenu}>Meus Pedidos</Link>
+          <Link to="/ultimos-sorteios" className="text-gray-400 hover:text-white text-lg" onClick={toggleMenu}>Últimos sorteios</Link>
         </div>
       </div>
     </nav>
